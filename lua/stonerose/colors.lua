@@ -8,14 +8,13 @@ local stonerose = {
   stonerose5 = "#a0a4a7"       ,
   stonerose6 = "#caccce"       ,
   stonerose7 = "#eaebeb"       ,
-  stonerose8 = "#d57272"       ,
-  stonerose9 = "#d37f73"       ,
-  stoneroseA = "#af979e"       ,
-  stoneroseB = "#9fb195"       ,
-  stoneroseC = "#8eb8a8"       ,
-  stoneroseD = "#93adb4"       ,
-  stoneroseE = "#c97e88"       ,
-  stoneroseF = "#cb7c95"       ,
+  stonerose8 = "#dd7e7e"       ,
+  stonerose9 = "#f59b88"       ,
+  stoneroseA = "#c19a9e"       ,
+  stoneroseB = "#afbd9e"       ,
+  stoneroseC = "#9bc0b2"       ,
+  stoneroseD = "#a2afb9"       ,
+  stoneroseE = "#a49ebd"       ,
   none =          'NONE'
 }
 
