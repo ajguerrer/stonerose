@@ -8,7 +8,7 @@ util.highlight = function (group, color)
   local guibg = color.guibg and "guibg=" .. color.guibg or "guibg=none"
   local guisp = color.guisp and "guisp=" .. color.guisp or ""
 
-  local hl = "highlight " .. group .. " " .. style .. " " .. fg .. " " .. bg .. " " .. sp
+  local hl = "highlight " .. group .. " " .. gui .. " " .. guifg .. " " .. guibg .. " " .. guisp
 
   vim.cmd(hl)
   if color.link then vim.cmd("highlight! link " .. group .. " " .. color.link) end
