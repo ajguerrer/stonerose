@@ -1,20 +1,20 @@
 local stonerose = {
   --16 colors
-  stonerose0 = "#1d1f20"       ,
-  stonerose1 = "#3b3e40"       ,
-  stonerose2 = "#585c5f"       ,
-  stonerose3 = "#808589"       ,
-  stonerose4 = "#8a8f93"       ,
-  stonerose5 = "#a0a4a7"       ,
-  stonerose6 = "#caccce"       ,
-  stonerose7 = "#eaebeb"       ,
+  stonerose0 = "#26292c"       ,
+  stonerose1 = "#42484d"       ,
+  stonerose2 = "#5e676e"       ,
+  stonerose3 = "#7b868e"       ,
+  stonerose4 = "#9ca4ab"       ,
+  stonerose5 = "#b7bdc2"       ,
+  stonerose6 = "#d3d7d9"       ,
+  stonerose7 = "#e9ebec"       ,
   stonerose8 = "#dd7e7e"       ,
   stonerose9 = "#dd997e"       ,
-  stoneroseA = "#c19a9e"       ,
-  stoneroseB = "#afbd9e"       ,
-  stoneroseC = "#9bc0b2"       ,
-  stoneroseD = "#a2afb9"       ,
-  stoneroseE = "#a49ebd"       ,
+  stoneroseA = "#bc9fa2"       ,
+  stoneroseB = "#a1bf9b"       ,
+  stoneroseC = "#98c3ad"       ,
+  stoneroseD = "#9fadbc"       ,
+  stoneroseE = "#9797bd"       ,
   none =          'NONE'
 }
 
