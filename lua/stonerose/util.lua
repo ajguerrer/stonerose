@@ -14,6 +14,8 @@ util.highlight = setmetatable({}, {
   end
 })
 
+-- Load the theme
+function util.load()
   -- Set the theme environment
   vim.cmd("hi clear")
   if vim.fn.exists("syntax_on") then vim.cmd("syntax reset") end
