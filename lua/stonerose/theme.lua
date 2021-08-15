@@ -11,7 +11,7 @@ theme.loadSyntax = function ()
     Conditional  = { guifg = colors.stoneroseE },
     Constant     = { guifg = colors.stonerose9 },
     Define       = { guifg = colors.stoneroseE },
-    Delimiter    = { guifg = colors.stoneroseF },
+    Delimiter    = { guifg = colors.stonerose9 },
     Float        = { guifg = colors.stonerose9 },
     Function     = { guifg = colors.stoneroseD },
     Identifier   = { guifg = colors.stonerose8 },
@@ -23,7 +23,7 @@ theme.loadSyntax = function ()
     PreProc      = { guifg = colors.stoneroseA },
     Repeat       = { guifg = colors.stoneroseA },
     Special      = { guifg = colors.stoneroseC },
-    SpecialChar  = { guifg = colors.stoneroseF },
+    SpecialChar  = { guifg = colors.stoneroseC },
     Statement    = { guifg = colors.stonerose8 },
     StorageClass = { guifg = colors.stoneroseA },
     String       = { guifg = colors.stoneroseB },
@@ -117,7 +117,7 @@ end
 theme.loadTreeSitter = function ()
   -- TreeSitter highlight groups
   return {
-    TSAnnotation         = { guifg = colors.stoneroseF  },
+    TSAnnotation         = { guifg = colors.stonerose9  },
     TSAttribute          = { guifg = colors.stoneroseA  },
     TSBoolean            = { guifg = colors.stonerose9  },
     TSCharacter          = { guifg = colors.stoneroseC  },
@@ -147,7 +147,7 @@ theme.loadTreeSitter = function ()
     TSParameter          = { guifg = colors.stonerose5  },
     TSParameterReference = { guifg = colors.stonerose5  },
     TSProperty           = { guifg = colors.stonerose5  },
-    TSPunctDelimiter     = { guifg = colors.stoneroseF  },
+    TSPunctDelimiter     = { guifg = colors.stonerose9  },
     TSPunctBracket       = { guifg = colors.stonerose5  },
     TSPunctSpecial       = { guifg = colors.stonerose5  },
     TSRepeat             = { guifg = colors.stoneroseA  },
@@ -156,7 +156,7 @@ theme.loadTreeSitter = function ()
     TSStringEscape       = { guifg = colors.stoneroseC  },
     TSSymbol             = { guifg = colors.stoneroseB  },
     TSTag                = { guifg = colors.stoneroseA  },
-    TSTagDelimiter       = { guifg = colors.stoneroseF  },
+    TSTagDelimiter       = { guifg = colors.stonerose9  },
     TSText               = { guifg = colors.stonerose5  },
     TSStrong             = { gui = 'bold' },
     TSEmphasis           = { guifg = colors.stonerose9, gui = 'italic' },
@@ -189,9 +189,9 @@ theme.loadLSP = function ()
     LspDiagnosticsDefaultInformation   = { guifg = colors.stonerose5 },
     LspDiagnosticsDefaultHint          = { guifg = colors.stoneroseC },
     LspDiagnosticsUnderlineError       = { gui = 'undercurl', guisp = colors.stonerose8 },
-    LspDiagnosticsUnderlineWarning     = { gui = 'undercurl', guisp = colors.stoneroseE },
-    LspDiagnosticsUnderlineInformation = { gui = 'undercurl', guisp = colors.stoneroseF },
-    LspDiagnosticsUnderlineHint        = { gui = 'undercurl', guisp = colors.stoneroseC },
+    LspDiagnosticsUnderlineWarning     = { gui = 'undercurl', guisp = colors.stoneroseA },
+    LspDiagnosticsUnderlineInformation = { gui = 'undercurl', guisp = colors.stoneroseC },
+    LspDiagnosticsUnderlineHint        = { gui = 'undercurl', guisp = colors.stoneroseD },
   }
 
 end
