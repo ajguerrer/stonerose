@@ -14,7 +14,7 @@ local stonerose = {
   stoneroseB = "#a1bf9b"       ,
   stoneroseC = "#98c3ad"       ,
   stoneroseD = "#98aabd"       ,
-  stoneroseE = "#9797bd"       ,
+  stoneroseE = "#b99bbf"       ,
   none =          'NONE'
 }
 
