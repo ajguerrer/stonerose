@@ -2,17 +2,17 @@ local util = {}
 local stonerose = require('stonerose.theme')
 
 -- Go trough the table and highlight the group with the color values
-util.highlight = setmetatable({}, {
-  __newindex = function(_, hlgroup, args)
-      local guifg, guibg, gui, guisp = args.guifg, args.guibg, args.gui, args.guisp
-      local cmd = {'hi', hlgroup}
-      if guifg then table.insert(cmd, 'guifg='..guifg) end
-      if guibg then table.insert(cmd, 'guibg='..guibg) end
-      if gui then table.insert(cmd, 'gui='..gui) end
-      if guisp then table.insert(cmd, 'guisp='..guisp) end
-      vim.cmd(table.concat(cmd, ' '))
-  end
-})
+util.highlight = function (group, color)
+  local gui   = color.gui   and "gui="   .. color.gui   or "gui=none"
+  local guifg = color.guifg and "guifg=" .. color.guifg or "guifg=none"
+  local guibg = color.guibg and "guibg=" .. color.guibg or "guibg=none"
+  local guisp = color.guisp and "guisp=" .. color.guisp or ""
+
+  local hl = "highlight " .. group .. " " .. style .. " " .. fg .. " " .. bg .. " " .. sp
+
+  vim.cmd(hl)
+  if color.link then vim.cmd("highlight! link " .. group .. " " .. color.link) end
+end
 
 -- Load the theme
 function util.load()
