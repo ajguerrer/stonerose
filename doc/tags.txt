@@ -1,0 +1,3 @@
+stonerose	stonerose.txt	/*stonerose*
+stonerose-features	stonerose.txt	/*stonerose-features*
+stonerose-usage	stonerose.txt	/*stonerose-usage*
