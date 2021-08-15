@@ -10,10 +10,10 @@ local stonerose = {
   stonerose7 = "#e9ebec"       ,
   stonerose8 = "#dd7e7e"       ,
   stonerose9 = "#dd997e"       ,
-  stoneroseA = "#bc9fa2"       ,
+  stoneroseA = "#bd989d"       ,
   stoneroseB = "#a1bf9b"       ,
   stoneroseC = "#98c3ad"       ,
-  stoneroseD = "#9fadbc"       ,
+  stoneroseD = "#98aabd"       ,
   stoneroseE = "#9797bd"       ,
   none =          'NONE'
 }
