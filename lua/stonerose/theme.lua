@@ -9,16 +9,16 @@ theme.loadSyntax = function ()
   Comment      = { guifg = colors.stonerose3 }
   Conditional  = { guifg = colors.stoneroseE }
   Constant     = { guifg = colors.stonerose9 }
-  Define       = { guifg = colors.stoneroseE, gui = 'none' }
+  Define       = { guifg = colors.stoneroseE }
   Delimiter    = { guifg = colors.stoneroseF }
   Float        = { guifg = colors.stonerose9 }
   Function     = { guifg = colors.stoneroseD }
-  Identifier   = { guifg = colors.stonerose8, gui = 'none' }
+  Identifier   = { guifg = colors.stonerose8 }
   Include      = { guifg = colors.stoneroseD }
   Keyword      = { guifg = colors.stoneroseE }
   Label        = { guifg = colors.stoneroseA }
   Number       = { guifg = colors.stonerose9 }
-  Operator     = { guifg = colors.stonerose5, gui = 'none' }
+  Operator     = { guifg = colors.stonerose5 }
   PreProc      = { guifg = colors.stoneroseA }
   Repeat       = { guifg = colors.stoneroseA }
   Special      = { guifg = colors.stoneroseC }
@@ -29,7 +29,7 @@ theme.loadSyntax = function ()
   Structure    = { guifg = colors.stoneroseE }
   Tag          = { guifg = colors.stoneroseA }
   Todo         = { guifg = colors.stoneroseA, guibg = colors.stonerose1 }
-  Type         = { guifg = colors.stoneroseA, gui = 'none' }
+  Type         = { guifg = colors.stoneroseA }
   Typedef      = { guifg = colors.stoneroseA }
 
 end
@@ -46,15 +46,15 @@ theme.loadEditor = function ()
   Exception    = { guifg = colors.stonerose8 }
   FoldColumn   = { guifg = colors.stoneroseC, guibg = colors.stonerose1 }
   Folded       = { guifg = colors.stonerose3, guibg = colors.stonerose1 }
-  IncSearch    = { guifg = colors.stonerose1, guibg = colors.stonerose9, gui = 'none' }
-  Italic       = { gui = 'none' }
+  IncSearch    = { guifg = colors.stonerose1, guibg = colors.stonerose9 }
+  Italic       = { gui = 'italic' }
   Macro        = { guifg = colors.stonerose8 }
   MatchParen   = { guibg = colors.stonerose3 }
   ModeMsg      = { guifg = colors.stoneroseB }
   MoreMsg      = { guifg = colors.stoneroseB }
   Question     = { guifg = colors.stoneroseD }
   Search       = { guifg = colors.stonerose1, guibg = colors.stoneroseA }
-  Substitute   = { guifg = colors.stonerose1, guibg = colors.stoneroseA, gui = 'none' }
+  Substitute   = { guifg = colors.stonerose1, guibg = colors.stoneroseA }
   SpecialKey   = { guifg = colors.stonerose3 }
   TooLong      = { guifg = colors.stonerose8 }
   Underlined   = { guifg = colors.stonerose8 }
@@ -62,29 +62,29 @@ theme.loadEditor = function ()
   VisualNOS    = { guifg = colors.stonerose8 }
   WarningMsg   = { guifg = colors.stonerose8 }
   WildMenu     = { guifg = colors.stonerose8, guibg = colors.stoneroseA }
-  Title        = { guifg = colors.stoneroseD, gui = 'none' }
+  Title        = { guifg = colors.stoneroseD }
   Conceal      = { guifg = colors.stoneroseD, guibg = colors.stonerose0 }
   Cursor       = { guifg = colors.stonerose0, guibg = colors.stonerose5 }
   NonText      = { guifg = colors.stonerose3 }
   LineNr       = { guifg = colors.stonerose4, guibg = colors.stonerose0 }
   SignColumn   = { guifg = colors.stonerose4, guibg = colors.stonerose0 }
-  StatusLine   = { guifg = colors.stonerose4, guibg = colors.stonerose2, gui = 'none' }
-  StatusLineNC = { guifg = colors.stonerose3, guibg = colors.stonerose1, gui = 'none' }
-  VertSplit    = { guifg = colors.stonerose5, guibg = colors.stonerose0, gui = 'none' }
-  ColorColumn  = { guibg = colors.stonerose1, gui = 'none' }
-  CursorColumn = { guibg = colors.stonerose1, gui = 'none' }
-  CursorLine   = { guibg = colors.stonerose1, gui = 'none' }
+  StatusLine   = { guifg = colors.stonerose4, guibg = colors.stonerose2 }
+  StatusLineNC = { guifg = colors.stonerose3, guibg = colors.stonerose1 }
+  VertSplit    = { guifg = colors.stonerose5, guibg = colors.stonerose0 }
+  ColorColumn  = { guibg = colors.stonerose1 }
+  CursorColumn = { guibg = colors.stonerose1 }
+  CursorLine   = { guibg = colors.stonerose1 }
   CursorLineNr = { guifg = colors.stonerose4, guibg = colors.stonerose1 }
-  QuickFixLine = { guibg = colors.stonerose1, gui = 'none' }
-  PMenu        = { guifg = colors.stonerose5, guibg = colors.stonerose1, gui = 'none' }
+  QuickFixLine = { guibg = colors.stonerose1 }
+  PMenu        = { guifg = colors.stonerose5, guibg = colors.stonerose1 }
   PMenuSel     = { guifg = colors.stonerose1, guibg = colors.stonerose5 }
-  TabLine      = { guifg = colors.stonerose3, guibg = colors.stonerose1, gui = 'none' }
-  TabLineFill  = { guifg = colors.stonerose3, guibg = colors.stonerose1, gui = 'none' }
-  TabLineSel   = { guifg = colors.stoneroseB, guibg = colors.stonerose1, gui = 'none' }
+  TabLine      = { guifg = colors.stonerose3, guibg = colors.stonerose1 }
+  TabLineFill  = { guifg = colors.stonerose3, guibg = colors.stonerose1 }
+  TabLineSel   = { guifg = colors.stoneroseB, guibg = colors.stonerose1 }
   NormalFloat  = { guifg = colors.stonerose5, guibg = colors.stonerose0 }
   FloatBorder  = { guifg = colors.stonerose5, guibg = colors.stonerose0 }
   NormalNC     = { guifg = colors.stonerose5, guibg = colors.stonerose0 }
-  TermCursor   = { guifg = colors.stonerose0, guibg = colors.stonerose5, gui = 'none' }
+  TermCursor   = { guifg = colors.stonerose0, guibg = colors.stonerose5 }
   TermCursorNC = { guifg = colors.stonerose0, guibg = colors.stonerose5 }
 
 end
@@ -112,58 +112,58 @@ end
 
 theme.loadTreeSitter = function ()
   -- TreeSitter highlight groups
-  TSAnnotation         = { guifg = colors.stoneroseF gui = 'none' }
-  TSAttribute          = { guifg = colors.stoneroseA gui = 'none' }
-  TSBoolean            = { guifg = colors.stonerose9 gui = 'none' }
-  TSCharacter          = { guifg = colors.stoneroseC gui = 'none' }
-  TSComment            = { guifg = colors.stonerose3 gui = 'none' }
-  TSConstructor        = { guifg = colors.stoneroseD gui = 'none' }
-  TSConditional        = { guifg = colors.stoneroseE gui = 'none' }
-  TSConstant           = { guifg = colors.stonerose9 gui = 'none' }
-  TSConstBuiltin       = { guifg = colors.stonerose9 gui = 'none' }
-  TSConstMacro         = { guifg = colors.stonerose9 gui = 'none' }
-  TSError              = { guifg = colors.stonerose8 gui = 'none' }
-  TSException          = { guifg = colors.stonerose8 gui = 'none' }
-  TSField              = { guifg = colors.stonerose5 gui = 'none' }
-  TSFloat              = { guifg = colors.stonerose9 gui = 'none' }
-  TSFunction           = { guifg = colors.stoneroseD gui = 'none' }
-  TSFuncBuiltin        = { guifg = colors.stoneroseD gui = 'none' }
-  TSFuncMacro          = { guifg = colors.stoneroseD gui = 'none' }
-  TSInclude            = { guifg = colors.stoneroseD gui = 'none' }
-  TSKeyword            = { guifg = colors.stoneroseE gui = 'none' }
-  TSKeywordFunction    = { guifg = colors.stoneroseE gui = 'none' }
-  TSKeywordOperator    = { guifg = colors.stoneroseE gui = 'none' }
-  TSLabel              = { guifg = colors.stoneroseC gui = 'none' }
-  TSMethod             = { guifg = colors.stoneroseD gui = 'none' }
-  TSNamespace          = { guifg = colors.stoneroseD gui = 'none' }
-  TSNone               = { guifg = colors.stonerose5 gui = 'none' }
-  TSNumber             = { guifg = colors.stonerose9 gui = 'none' }
-  TSOperator           = { guifg = colors.stonerose5 gui = 'none' }
-  TSParameter          = { guifg = colors.stonerose5 gui = 'none' }
-  TSParameterReference = { guifg = colors.stonerose5 gui = 'none' }
-  TSProperty           = { guifg = colors.stonerose5 gui = 'none' }
-  TSPunctDelimiter     = { guifg = colors.stoneroseF gui = 'none' }
-  TSPunctBracket       = { guifg = colors.stonerose5 gui = 'none' }
-  TSPunctSpecial       = { guifg = colors.stonerose5 gui = 'none' }
-  TSRepeat             = { guifg = colors.stoneroseA gui = 'none' }
-  TSString             = { guifg = colors.stoneroseB gui = 'none' }
-  TSStringRegex        = { guifg = colors.stoneroseC gui = 'none' }
-  TSStringEscape       = { guifg = colors.stoneroseC gui = 'none' }
-  TSSymbol             = { guifg = colors.stoneroseB gui = 'none' }
-  TSTag                = { guifg = colors.stoneroseA gui = 'none' }
-  TSTagDelimiter       = { guifg = colors.stoneroseF gui = 'none' }
-  TSText               = { guifg = colors.stonerose5 gui = 'none' }
+  TSAnnotation         = { guifg = colors.stoneroseF  }
+  TSAttribute          = { guifg = colors.stoneroseA  }
+  TSBoolean            = { guifg = colors.stonerose9  }
+  TSCharacter          = { guifg = colors.stoneroseC  }
+  TSComment            = { guifg = colors.stonerose3  }
+  TSConstructor        = { guifg = colors.stoneroseD  }
+  TSConditional        = { guifg = colors.stoneroseE  }
+  TSConstant           = { guifg = colors.stonerose9  }
+  TSConstBuiltin       = { guifg = colors.stonerose9  }
+  TSConstMacro         = { guifg = colors.stonerose9  }
+  TSError              = { guifg = colors.stonerose8  }
+  TSException          = { guifg = colors.stonerose8  }
+  TSField              = { guifg = colors.stonerose5  }
+  TSFloat              = { guifg = colors.stonerose9  }
+  TSFunction           = { guifg = colors.stoneroseD  }
+  TSFuncBuiltin        = { guifg = colors.stoneroseD  }
+  TSFuncMacro          = { guifg = colors.stoneroseD  }
+  TSInclude            = { guifg = colors.stoneroseD  }
+  TSKeyword            = { guifg = colors.stoneroseE  }
+  TSKeywordFunction    = { guifg = colors.stoneroseE  }
+  TSKeywordOperator    = { guifg = colors.stoneroseE  }
+  TSLabel              = { guifg = colors.stoneroseC  }
+  TSMethod             = { guifg = colors.stoneroseD  }
+  TSNamespace          = { guifg = colors.stoneroseD  }
+  TSNone               = { guifg = colors.stonerose5  }
+  TSNumber             = { guifg = colors.stonerose9  }
+  TSOperator           = { guifg = colors.stonerose5  }
+  TSParameter          = { guifg = colors.stonerose5  }
+  TSParameterReference = { guifg = colors.stonerose5  }
+  TSProperty           = { guifg = colors.stonerose5  }
+  TSPunctDelimiter     = { guifg = colors.stoneroseF  }
+  TSPunctBracket       = { guifg = colors.stonerose5  }
+  TSPunctSpecial       = { guifg = colors.stonerose5  }
+  TSRepeat             = { guifg = colors.stoneroseA  }
+  TSString             = { guifg = colors.stoneroseB  }
+  TSStringRegex        = { guifg = colors.stoneroseC  }
+  TSStringEscape       = { guifg = colors.stoneroseC  }
+  TSSymbol             = { guifg = colors.stoneroseB  }
+  TSTag                = { guifg = colors.stoneroseA  }
+  TSTagDelimiter       = { guifg = colors.stoneroseF  }
+  TSText               = { guifg = colors.stonerose5  }
   TSStrong             = { gui = 'bold' }
-  TSEmphasis           = { guifg = colors.stonerose9 gui = 'italic' }
-  TSUnderline          = { guifg = colors.stonerose0 gui = 'underline' }
-  TSStrike             = { guifg = colors.stonerose0 gui = 'strikethrough' }
-  TSTitle              = { guifg = colors.stoneroseD gui = 'none' }
-  TSLiteral            = { guifg = colors.stonerose9 gui = 'none' }
-  TSURI                = { guifg = colors.stonerose9 gui = 'underline' }
-  TSType               = { guifg = colors.stoneroseA gui = 'none' }
-  TSTypeBuiltin        = { guifg = colors.stonerose9 gui = 'none' }
-  TSVariable           = { guifg = colors.stonerose5 gui = 'none' }
-  TSVariableBuiltin    = { guifg = colors.stoneroseC gui = 'none' }
+  TSEmphasis           = { guifg = colors.stonerose9, gui = 'italic' }
+  TSUnderline          = { guifg = colors.stonerose0, gui = 'underline' }
+  TSStrike             = { guifg = colors.stonerose0, gui = 'strikethrough' }
+  TSTitle              = { guifg = colors.stoneroseD }
+  TSLiteral            = { guifg = colors.stonerose9 }
+  TSURI                = { guifg = colors.stonerose9, gui = 'underline' }
+  TSType               = { guifg = colors.stoneroseA }
+  TSTypeBuiltin        = { guifg = colors.stonerose9 }
+  TSVariable           = { guifg = colors.stonerose5 }
+  TSVariableBuiltin    = { guifg = colors.stoneroseC }
   TSDefinition         = { gui = 'underline', guisp = colors.stonerose4 }
   TSDefinitionUsage    = { gui = 'underline', guisp = colors.stonerose4 }
   TSCurrentScope       = { gui = 'bold' }
@@ -177,10 +177,10 @@ theme.loadLSP = function ()
   LspReferenceText                   = { gui = 'underline', guisp = colors.stonerose4 }
   LspReferenceRead                   = { gui = 'underline', guisp = colors.stonerose4 }
   LspReferenceWrite                  = { gui = 'underline', guisp = colors.stonerose4 }
-  LspDiagnosticsDefaultError         = { guifg = colors.stonerose8, gui = 'none' }
-  LspDiagnosticsDefaultWarning       = { guifg = colors.stoneroseE, gui = 'none' }
-  LspDiagnosticsDefaultInformation   = { guifg = colors.stonerose5, gui = 'none' }
-  LspDiagnosticsDefaultHint          = { guifg = colors.stoneroseC, gui = 'none' }
+  LspDiagnosticsDefaultError         = { guifg = colors.stonerose8 }
+  LspDiagnosticsDefaultWarning       = { guifg = colors.stoneroseE }
+  LspDiagnosticsDefaultInformation   = { guifg = colors.stonerose5 }
+  LspDiagnosticsDefaultHint          = { guifg = colors.stoneroseC }
   LspDiagnosticsUnderlineError       = { gui = 'undercurl', guisp = colors.stonerose8 }
   LspDiagnosticsUnderlineWarning     = { gui = 'undercurl', guisp = colors.stoneroseE }
   LspDiagnosticsUnderlineInformation = { gui = 'undercurl', guisp = colors.stoneroseF }
@@ -230,17 +230,17 @@ theme.loadMisc = function()
   SpellCap   = { gui = 'undercurl', guisp = colors.stoneroseD }
   SpellRare  = { gui = 'undercurl', guisp = colors.stoneroseE }
 
-  User1 = { guifg = colors.stonerose8, guibg = colors.stonerose2, gui = 'none' }
-  User2 = { guifg = colors.stoneroseE, guibg = colors.stonerose2, gui = 'none' }
-  User3 = { guifg = colors.stonerose5, guibg = colors.stonerose2, gui = 'none' }
-  User4 = { guifg = colors.stoneroseC, guibg = colors.stonerose2, gui = 'none' }
-  User5 = { guifg = colors.stonerose1, guibg = colors.stonerose2, gui = 'none' }
-  User6 = { guifg = colors.stonerose5, guibg = colors.stonerose2, gui = 'none' }
-  User7 = { guifg = colors.stonerose5, guibg = colors.stonerose2, gui = 'none' }
-  User8 = { guifg = colors.stonerose0, guibg = colors.stonerose2, gui = 'none' }
-  User9 = { guifg = colors.stonerose0, guibg = colors.stonerose2, gui = 'none' }
+  User1 = { guifg = colors.stonerose8, guibg = colors.stonerose2 }
+  User2 = { guifg = colors.stoneroseE, guibg = colors.stonerose2 }
+  User3 = { guifg = colors.stonerose5, guibg = colors.stonerose2 }
+  User4 = { guifg = colors.stoneroseC, guibg = colors.stonerose2 }
+  User5 = { guifg = colors.stonerose1, guibg = colors.stonerose2 }
+  User6 = { guifg = colors.stonerose5, guibg = colors.stonerose2 }
+  User7 = { guifg = colors.stonerose5, guibg = colors.stonerose2 }
+  User8 = { guifg = colors.stonerose0, guibg = colors.stonerose2 }
+  User9 = { guifg = colors.stonerose0, guibg = colors.stonerose2 }
 
-  NvimInternalError = { guifg = colors.stonerose0, guibg = colors.stonerose8, gui = 'none' }
+  NvimInternalError = { guifg = colors.stonerose0, guibg = colors.stonerose8 }
 
 end
 
