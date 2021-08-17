@@ -4,6 +4,7 @@
 stoenrose is a modern colorscheme written in lua for NeoVim that supports new features added to 
 NeoVim like built-in LSP and [TreeSitter](https://github.com/nvim-treesitter/nvim-treesitter)
 
+![sample](sample.png)
 
 ## ⚡️ Requirements
 
